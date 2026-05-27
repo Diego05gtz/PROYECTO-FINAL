@@ -34,6 +34,21 @@ void print_cpu_info() {
     std::cout << "Logical Cores:  " << siblings << " (Threads)" << std::endl;
     std::cout << "OpenMP Max Thr: " << omp_get_max_threads() << std::endl;
     
+    // Cache info
+    for (int i = 0; i < 4; ++i) {
+        std::string path = "/sys/devices/system/cpu/cpu0/cache/index" + std::to_string(i) + "/";
+        std::ifstream level_file(path + "level");
+        std::ifstream size_file(path + "size");
+        std::ifstream type_file(path + "type");
+        if (level_file.is_open() && size_file.is_open()) {
+            std::string level, size, type;
+            std::getline(level_file, level);
+            std::getline(size_file, size);
+            std::getline(type_file, type);
+            std::cout << "Cache L" << level << " (" << type << "): " << size << std::endl;
+        }
+    }
+
     // Memoria
     std::ifstream meminfo("/proc/meminfo");
     if (meminfo.is_open()) {
