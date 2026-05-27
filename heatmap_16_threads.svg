@@ -1,0 +1,64 @@
+<svg width="800" height="300" xmlns="http://www.w3.org/2000/svg">
+<rect width="100%" height="100%" fill="white"/>
+<text x="400.0" y="30" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold">Fractal Time Heatmap (16 Threads)</text>
+<text x="90" y="90.0" text-anchor="end" font-family="Arial" font-size="12">Static</text>
+<text x="141.25" y="260" text-anchor="middle" font-family="Arial" font-size="12">1</text>
+<rect x="100.0" y="60.0" width="82.5" height="60.0" fill="rgb(255,146,0)" stroke="white"/>
+<text x="141.25" y="95.0" text-anchor="middle" font-family="Arial" font-size="10" fill="black">27.99</text>
+<text x="223.75" y="260" text-anchor="middle" font-family="Arial" font-size="12">2</text>
+<rect x="182.5" y="60.0" width="82.5" height="60.0" fill="rgb(255,218,0)" stroke="white"/>
+<text x="223.75" y="95.0" text-anchor="middle" font-family="Arial" font-size="10" fill="black">22.40</text>
+<text x="306.25" y="260" text-anchor="middle" font-family="Arial" font-size="12">4</text>
+<rect x="265.0" y="60.0" width="82.5" height="60.0" fill="rgb(255,241,0)" stroke="white"/>
+<text x="306.25" y="95.0" text-anchor="middle" font-family="Arial" font-size="10" fill="black">20.60</text>
+<text x="388.75" y="260" text-anchor="middle" font-family="Arial" font-size="12">8</text>
+<rect x="347.5" y="60.0" width="82.5" height="60.0" fill="rgb(255,255,0)" stroke="white"/>
+<text x="388.75" y="95.0" text-anchor="middle" font-family="Arial" font-size="10" fill="black">19.53</text>
+<text x="471.25" y="260" text-anchor="middle" font-family="Arial" font-size="12">16</text>
+<rect x="430.0" y="60.0" width="82.5" height="60.0" fill="rgb(255,252,0)" stroke="white"/>
+<text x="471.25" y="95.0" text-anchor="middle" font-family="Arial" font-size="10" fill="black">19.72</text>
+<text x="553.75" y="260" text-anchor="middle" font-family="Arial" font-size="12">32</text>
+<rect x="512.5" y="60.0" width="82.5" height="60.0" fill="rgb(255,236,0)" stroke="white"/>
+<text x="553.75" y="95.0" text-anchor="middle" font-family="Arial" font-size="10" fill="black">20.95</text>
+<text x="636.25" y="260" text-anchor="middle" font-family="Arial" font-size="12">64</text>
+<rect x="595.0" y="60.0" width="82.5" height="60.0" fill="rgb(255,250,0)" stroke="white"/>
+<text x="636.25" y="95.0" text-anchor="middle" font-family="Arial" font-size="10" fill="black">19.88</text>
+<text x="718.75" y="260" text-anchor="middle" font-family="Arial" font-size="12">128</text>
+<rect x="677.5" y="60.0" width="82.5" height="60.0" fill="rgb(255,245,0)" stroke="white"/>
+<text x="718.75" y="95.0" text-anchor="middle" font-family="Arial" font-size="10" fill="black">20.29</text>
+<text x="90" y="150.0" text-anchor="end" font-family="Arial" font-size="12">Dynamic</text>
+<rect x="100.0" y="120.0" width="82.5" height="60.0" fill="rgb(255,202,0)" stroke="white"/>
+<text x="141.25" y="155.0" text-anchor="middle" font-family="Arial" font-size="10" fill="black">23.63</text>
+<rect x="182.5" y="120.0" width="82.5" height="60.0" fill="rgb(255,226,0)" stroke="white"/>
+<text x="223.75" y="155.0" text-anchor="middle" font-family="Arial" font-size="10" fill="black">21.75</text>
+<rect x="265.0" y="120.0" width="82.5" height="60.0" fill="rgb(255,244,0)" stroke="white"/>
+<text x="306.25" y="155.0" text-anchor="middle" font-family="Arial" font-size="10" fill="black">20.35</text>
+<rect x="347.5" y="120.0" width="82.5" height="60.0" fill="rgb(255,250,0)" stroke="white"/>
+<text x="388.75" y="155.0" text-anchor="middle" font-family="Arial" font-size="10" fill="black">19.90</text>
+<rect x="430.0" y="120.0" width="82.5" height="60.0" fill="rgb(255,176,0)" stroke="white"/>
+<text x="471.25" y="155.0" text-anchor="middle" font-family="Arial" font-size="10" fill="black">25.66</text>
+<rect x="512.5" y="120.0" width="82.5" height="60.0" fill="rgb(255,143,0)" stroke="white"/>
+<text x="553.75" y="155.0" text-anchor="middle" font-family="Arial" font-size="10" fill="black">28.24</text>
+<rect x="595.0" y="120.0" width="82.5" height="60.0" fill="rgb(255,128,0)" stroke="white"/>
+<text x="636.25" y="155.0" text-anchor="middle" font-family="Arial" font-size="10" fill="black">29.39</text>
+<rect x="677.5" y="120.0" width="82.5" height="60.0" fill="rgb(255,177,0)" stroke="white"/>
+<text x="718.75" y="155.0" text-anchor="middle" font-family="Arial" font-size="10" fill="black">25.62</text>
+<text x="90" y="210.0" text-anchor="end" font-family="Arial" font-size="12">Guided</text>
+<rect x="100.0" y="180.0" width="82.5" height="60.0" fill="rgb(255,78,0)" stroke="white"/>
+<text x="141.25" y="215.0" text-anchor="middle" font-family="Arial" font-size="10" fill="white">33.30</text>
+<rect x="182.5" y="180.0" width="82.5" height="60.0" fill="rgb(255,0,0)" stroke="white"/>
+<text x="223.75" y="215.0" text-anchor="middle" font-family="Arial" font-size="10" fill="white">39.44</text>
+<rect x="265.0" y="180.0" width="82.5" height="60.0" fill="rgb(255,114,0)" stroke="white"/>
+<text x="306.25" y="215.0" text-anchor="middle" font-family="Arial" font-size="10" fill="white">30.47</text>
+<rect x="347.5" y="180.0" width="82.5" height="60.0" fill="rgb(255,239,0)" stroke="white"/>
+<text x="388.75" y="215.0" text-anchor="middle" font-family="Arial" font-size="10" fill="black">20.75</text>
+<rect x="430.0" y="180.0" width="82.5" height="60.0" fill="rgb(255,252,0)" stroke="white"/>
+<text x="471.25" y="215.0" text-anchor="middle" font-family="Arial" font-size="10" fill="black">19.74</text>
+<rect x="512.5" y="180.0" width="82.5" height="60.0" fill="rgb(255,241,0)" stroke="white"/>
+<text x="553.75" y="215.0" text-anchor="middle" font-family="Arial" font-size="10" fill="black">20.56</text>
+<rect x="595.0" y="180.0" width="82.5" height="60.0" fill="rgb(255,229,0)" stroke="white"/>
+<text x="636.25" y="215.0" text-anchor="middle" font-family="Arial" font-size="10" fill="black">21.50</text>
+<rect x="677.5" y="180.0" width="82.5" height="60.0" fill="rgb(255,250,0)" stroke="white"/>
+<text x="718.75" y="215.0" text-anchor="middle" font-family="Arial" font-size="10" fill="black">19.89</text>
+<text x="400.0" y="285" text-anchor="middle" font-family="Arial" font-size="14">Chunk Size</text>
+</svg>

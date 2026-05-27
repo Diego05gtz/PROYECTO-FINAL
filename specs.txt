@@ -1,0 +1,10 @@
+========================================
+        HARDWARE SPECIFICATIONS         
+========================================
+CPU Model:      Intel(R) Core(TM) i5-8365U CPU @ 1.60GHz
+Physical Cores: 1
+Logical Cores:  1 (Threads)
+OpenMP Max Thr: 2
+RAM Total:            3960640 kB
+Hostname:       diego-VMware-Virtual-Platform
+========================================

@@ -1,0 +1,38 @@
+<svg width="700" height="500" xmlns="http://www.w3.org/2000/svg">
+<rect width="100%" height="100%" fill="white"/>
+<text x="350.0" y="30" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold">Speedup by Scheduler</text>
+<line x1="70" y1="430" x2="630" y2="430" stroke="black" stroke-width="2"/>
+<line x1="70" y1="70" x2="70" y2="430" stroke="black" stroke-width="2"/>
+<polyline points="70.0,407.5 107.33333333333334,385.0 182.0,340.0 331.33333333333337,250.0 630.0,70.0" fill="none" stroke="#ccc" stroke-width="1" stroke-dasharray="5,5"/>
+<rect x="580" y="70" width="15" height="15" fill="green"/>
+<text x="600" y="82" font-family="Arial" font-size="12">Dynamic</text>
+<rect x="580" y="95" width="15" height="15" fill="blue"/>
+<text x="600" y="107" font-family="Arial" font-size="12">Guided</text>
+<rect x="580" y="120" width="15" height="15" fill="red"/>
+<text x="600" y="132" font-family="Arial" font-size="12">Static</text>
+<circle cx="70.0" cy="408.1659338913429" r="3" fill="green"/>
+<circle cx="107.33333333333334" cy="390.593174096906" r="3" fill="green"/>
+<circle cx="182.0" cy="392.10648685210896" r="3" fill="green"/>
+<circle cx="331.33333333333337" cy="397.97271353587064" r="3" fill="green"/>
+<circle cx="630.0" cy="390.2304656514072" r="3" fill="green"/>
+<polyline points="70.0,408.1659338913429 107.33333333333334,390.593174096906 182.0,392.10648685210896 331.33333333333337,397.97271353587064 630.0,390.2304656514072" fill="none" stroke="green" stroke-width="2"/>
+<circle cx="70.0" cy="407.5" r="3" fill="blue"/>
+<circle cx="107.33333333333334" cy="389.23919100062346" r="3" fill="blue"/>
+<circle cx="182.0" cy="393.5435052199567" r="3" fill="blue"/>
+<circle cx="331.33333333333337" cy="389.7043981351884" r="3" fill="blue"/>
+<circle cx="630.0" cy="389.80054498801775" r="3" fill="blue"/>
+<polyline points="70.0,407.5 107.33333333333334,389.23919100062346 182.0,393.5435052199567 331.33333333333337,389.7043981351884 630.0,389.80054498801775" fill="none" stroke="blue" stroke-width="2"/>
+<circle cx="70.0" cy="407.908280902255" r="3" fill="red"/>
+<circle cx="107.33333333333334" cy="391.1606796198643" r="3" fill="red"/>
+<circle cx="182.0" cy="389.69837487917295" r="3" fill="red"/>
+<circle cx="331.33333333333337" cy="395.57281177947056" r="3" fill="red"/>
+<circle cx="630.0" cy="389.2383693556585" r="3" fill="red"/>
+<polyline points="70.0,407.908280902255 107.33333333333334,391.1606796198643 182.0,389.69837487917295 331.33333333333337,395.57281177947056 630.0,389.2383693556585" fill="none" stroke="red" stroke-width="2"/>
+<text x="350.0" y="485" text-anchor="middle" font-family="Arial" font-size="14">Threads</text>
+<text x="25" y="250.0" text-anchor="middle" font-family="Arial" font-size="14" transform="rotate(-90 25,250.0)">Speedup</text>
+<text x="70.0" y="450" text-anchor="middle" font-family="Arial" font-size="12">1</text>
+<text x="107.33333333333334" y="450" text-anchor="middle" font-family="Arial" font-size="12">2</text>
+<text x="182.0" y="450" text-anchor="middle" font-family="Arial" font-size="12">4</text>
+<text x="331.33333333333337" y="450" text-anchor="middle" font-family="Arial" font-size="12">8</text>
+<text x="630.0" y="450" text-anchor="middle" font-family="Arial" font-size="12">16</text>
+</svg>
